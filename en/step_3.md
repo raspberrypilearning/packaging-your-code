@@ -1,3 +1,3 @@
-## Step title
+## Creating a setup
 
 + Step content...

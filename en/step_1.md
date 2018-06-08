@@ -1,6 +1,6 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+In this project you will be packaging a really simple package which you will create called motivate, but these steps can be adapted to any Python project.
 
 ### What you will make
 
@@ -23,3 +23,17 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
 
 Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+
+## What you will need
+
+### Hardware
+
++ List hardware here, or delete section.
+
+### Software
+
++ List software here, or delete section.
+
+### Additional Resources
+
++ List additional resources, or delete section.

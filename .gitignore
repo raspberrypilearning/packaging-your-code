@@ -9,3 +9,26 @@ env/
 
 ### MacOS ###
 .DS_STORE
+
+*.py[cdo]
+pythonhosted/
+
+# Editor detritus
+*.vim
+*.swp
+tags
+.vscode
+.idea
+
+# Packaging detritus
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
