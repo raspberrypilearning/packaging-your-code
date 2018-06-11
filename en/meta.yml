@@ -1,6 +1,6 @@
-title: Packaging your code
+title: Packaging your Python code
 hero_image: images/banner.png
-description: Packaging-your-code description
+description: Learn how to package Python code into a distribution.
 theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: false

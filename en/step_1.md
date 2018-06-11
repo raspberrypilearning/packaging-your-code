@@ -3,15 +3,24 @@
 Using Python you very quickly get used to using `import` so you can use other modules within your program, e.g.
 
 ```python
-from time import sleep
 from guizero import App
 ```
 
-These **modules** have been created by other programmers and often shared as a **distribution** which you can install.
+or
+
+```python
+from numpy import array
+```
+
+These **modules** have been created by other programmers and have been shared as a **distribution** which you can install using `pip` e.g.
+
+```bash
+pip3 install guizero
+```
 
 Bundling up code into distributions which you can share is called **packaging** and makes it much easier for people to get, install and use your programs.
 
-In this project you will create a simple Python module, called `motivate` and package it, learning what you need to know to package your own code.
+In this project you will create a simple Python module, called `motivate` and package it, learning what you need to know to package your own Pyton code.
 
 ![motivate me](images/motivate_me.gif)
 
@@ -46,6 +55,11 @@ title: What you will need
 ### Software
 
 + Python 3
++ The following Python modules which can be installed using `pip`:
+  + setuptools
+  + twine
+
+[[[generic-python-installing-with-pip]]]
 
 --- /collapse ---
 
