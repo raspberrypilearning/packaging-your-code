@@ -10,7 +10,7 @@ Open a **Command Prompt** (Windows) or **Terminal** (Raspberry Pi, Linux, MacOS)
 
 --- task ---
 
-Create a directory for your project, this is known as the **distribution** and will hold all the directories and files which make up your project.
+Create a directory for your **project**, this will hold all the directories and files which make up your project.
 
 ```bash
 mkdir my_project
@@ -24,7 +24,7 @@ mkdir my_project
 
 --- task ---
 
-Change directory to the new **distribution** directory you just created.
+Change directory to your new project directory you just created.
 
 ```bash
 cd my_project
@@ -51,7 +51,6 @@ Open a Python 3 editor (such as IDLE), create a new file and save it was `me.py`
 This python program will hold the python code which will print motivating messages.
 
 --- /task ---
-
 
 --- task ---
 
@@ -88,12 +87,14 @@ from .me import motivate_me
 
 Your project should now have the following structure:
 
-+ **distribution** - `my_project`
++ **project** - `my_project`
   + **package** - `motivate`
     + **module** - `me.py`
     + **initialisation file** - `__init__.py`
 
-You can test this using the `tree` command to print the structure of your project.
+Its really important you get the structure correct or you may find that other steps don't work.
+
+You can test that your project is setup correctly using the `tree` command to print the directory and file structure.
 
 --- collapse ---
 
@@ -125,8 +126,36 @@ tree
 
 --- /collapse ---
 
-test your code 
+### Test your code
 
+You should test your module before packaging and installing it.
 
+--- task ---
 
-recap the structure of the distribution and the terminology
+Create a new Python 3 file and save it into the **project** directory as `test.py`
+
+--- /task ---
+
+--- task ---
+
+Add the following code to import the `motivate_me` function the `motivate` module.
+
+```python
+from motivate import motivate_me
+```
+
+--- /task ---
+
+--- task ---
+
+Append the code to call the `motivate_me` function.
+
+```python
+motivate_me()
+```
+
+--- /task ---
+
+You should see your motivating message appear.
+
+![motivate me](images/motivate_me.gif)

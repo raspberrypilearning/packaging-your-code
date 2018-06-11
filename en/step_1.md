@@ -1,39 +1,54 @@
 ## Introduction
 
-In this project you will be packaging a really simple package which you will create called motivate, but these steps can be adapted to any Python project.
+Using Python you very quickly get used to using `import` so you can use other modules within your program, e.g.
 
-### What you will make
+```python
+from time import sleep
+from guizero import App
+```
 
-Add something here to showcase here, for example:
+These **modules** have been created by other programmers and often shared as a **distribution** which you can install.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+Bundling up code into distributions which you can share is called **packaging** and makes it much easier for people to get, install and use your programs.
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+In this project you will create a simple Python module, called `motivate` and package it, learning what you need to know to package your own code.
 
-### What you will learn
+![motivate me](images/motivate_me.gif)
+
+--- collapse ---
+
+---
+title: What you will learn
+---
+
+You will learn:
+
++ how to structure Python projects
++ how to package Python modules
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level){:target="_blank"}
++ [Apply higher-order programming techniques to solve real-world problems.](https://curriculum.raspberrypi.org/programming/maker/){:target="_blank"}
++ [Engage and share with the digital making community.](https://curriculum.raspberrypi.org/community-and-sharing/creator/){:target="_blank"}
 
-### Additional information for educators
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: What you will need
+---
+
+### Hardware
+
++ A computer capable of running Python 3.
+
+### Software
+
++ Python 3
+
+--- /collapse ---
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
 
 Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
-
-## What you will need
-
-### Hardware
-
-+ List hardware here, or delete section.
-
-### Software
-
-+ List software here, or delete section.
-
-### Additional Resources
-
-+ List additional resources, or delete section.
