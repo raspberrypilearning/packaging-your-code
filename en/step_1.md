@@ -59,9 +59,10 @@ title: What you will need
   + setuptools
   + twine
 
+--- /collapse ---
+
 [[[generic-python-installing-with-pip]]]
 
---- /collapse ---
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
 

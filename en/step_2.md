@@ -16,10 +16,6 @@ Create a directory for your **project**, this will hold all the directories and 
 mkdir my_project
 ```
 
-![mkdir pi](images/mkdir_pi.PNG)
-
-![mkdir window.PNG](images/mkdir_windows.PNG)
-
 --- /task ---
 
 --- task ---
@@ -111,6 +107,8 @@ tree /F
 ![tree windows](images/tree_windows.PNG)
 
 --- /collapse ---
+
+--- collapse ---
 
 ---
 title: Raspberry Pi, Linux, MacOS
