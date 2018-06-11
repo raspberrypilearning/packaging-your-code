@@ -48,63 +48,14 @@ __packages__ = ["motivate"]
 Call the `setup` function passing the variables you just created.
 
 ```python
-setup()
+setup(
+    name = __project__,
+    version = __version__,
+    description = __description__,
+    packages = __packages__,
+)
 ```
 
 --- /task ---
 
-### Test your setup program
-
-To test and install your module, you need to run your `setup.py` program. 
-
-You will need to run it from the **Command Prompt** or **Terminal** as you need to pass the additional `install` parameter and in Linux run it with super user privileges.
-
---- task ---
-
-Run your `setup.py` program.
-
---- collapse ---
-
----
-title: Windows
----
-
-Open a **Command Prompt**, change directory (`cd`) to your **project** directory and run:
-
-```bash
-python setup.py install
-```
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Raspberry Pi, Linux
----
-
-Open a **Terminal**, change directory (`cd`) to your **project** directory and run:
-
-```bash
-sudo python3 setup.py install
-```
-
---- /collapse ---
-
---- collapse ---
-
----
-title: MacOS
----
-
-Open a **Terminal**, change directory (`cd`) to your **project** directory and run:
-
-```bash
-python3 setup.py install
-```
-
---- /collapse ---
-
---- /task ---
-
-
+In the next step you will run your `setup.py` program to install and test the `motivate` module.
