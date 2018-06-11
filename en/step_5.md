@@ -177,4 +177,4 @@ Test your **setup** by running `setup.py` program from the Command Prompt or Ter
 
 --- /task ---
 
-To learn more about distributing your Python projects have a look at the [Python Packaging Guide](http://python-packaging.readthedocs.io/en/latest/index.html).
+To learn more about distributing your Python projects have a look at the [Python Packaging User Guide](https://packaging.python.org/tutorials/packaging-projects/).

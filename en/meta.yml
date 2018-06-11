@@ -14,4 +14,5 @@ steps:
 - title: Creating a setup
 - title: Installing
 - title: Adding additional information
-- title: "Challenge: Create your own"
+- title: "Challenge: Create your own package"
+- title: Uploading to pypi.org

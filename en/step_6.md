@@ -2,6 +2,6 @@
 
 ## Challenge: Create your own package
 
-Now you have learnt the basic of Python packaging, you should try creating a **setup** for your own module.
+Now you have learnt the basic of Python packaging, create your own python module and prepare and test a **setup** for it.
 
 --- /challenge ---
