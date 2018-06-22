@@ -163,3 +163,5 @@ Run the `test.py` program.
 You should see your motivating message appear.
 
 ![motivate me](images/motivate_me.gif)
+
+**Note:** There is an example [solution](https://github.com/raspberrypilearning/packaging-your-code/tree/master/en/solutions) in the github repository for this project.
