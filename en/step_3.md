@@ -1,6 +1,6 @@
 ## Creating a setup
 
-At the moment you module can only be accessed if the program which is calling it is saved to the **project** directory, to make your module accessible to all Python programs it need to be installed.
+At the moment your module can only be accessed if the program which is calling it is saved to the **project** directory, to make your module accessible to all Python programs it needs to be installed.
 
 To install a Python module you have to create a **setup** program which packages the module into a **distribution** you can install.
 
@@ -12,7 +12,7 @@ Create a new Python 3 program and save it as `setup.py` in your **project** dire
 
 --- /task ---
 
-First you will just create a really simple setup program which does the minimum to create a install, you will expand on it later to include additional information.
+First you will just create a really simple setup program which does the minimum to install your project and you will expand on it later to include additional information.
 
 --- task ---
 

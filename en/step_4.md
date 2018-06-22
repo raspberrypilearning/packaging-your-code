@@ -1,8 +1,6 @@
 ## Installing
 
-To install your module and test the setup, you need to run your `setup.py` program. 
-
-You will need to run it from the **Command Prompt** or **Terminal** as you need to pass the additional `install` parameter and in Linux run it with super user privileges.
+To install your module and test the setup, you need to run your `setup.py` program from the **Command Prompt** or **Terminal** as you need to pass the additional `install` parameter.
 
 --- task ---
 

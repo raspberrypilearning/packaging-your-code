@@ -61,13 +61,13 @@ def motivate_me():
 
 --- /task ---
 
-In order to turn your Python code into a package and provide users access to your new function `motivate_me` you need to create a special file called `init.py` which will **initialise** your package tells Python about its contents.
+In order to turn your Python code into a package and provide users access to your new function `motivate_me` you need to create a special file called `__init.py__` which will **initialise** your package and tell Python about its contents.
 
 --- task ---
 
 Create a new file and save it as `__init__.py`.
 
-**Note**: there are 2 underscores `__` before and having the `init`, its important to get this right otherwise your program wont work.
+**Note**: there are 2 underscores `_` `_` before and having the `init`, its important to get this right otherwise your program wont work.
 
 --- /task ---
 
@@ -136,7 +136,7 @@ Create a new Python 3 file and save it into the **project** directory as `test.p
 
 --- task ---
 
-Add the following code to import the `motivate_me` function the `motivate` module.
+Add the following code to import the `motivate_me` function from the `motivate` module.
 
 ```python
 from motivate import motivate_me
@@ -146,11 +146,17 @@ from motivate import motivate_me
 
 --- task ---
 
-Append the code to call the `motivate_me` function.
+Add the code to call the `motivate_me` function.
 
 ```python
 motivate_me()
 ```
+
+--- /task ---
+
+--- task ---
+
+Run the `test.py` program.
 
 --- /task ---
 

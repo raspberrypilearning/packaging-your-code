@@ -80,7 +80,7 @@ setup(
 
 --- /task ---
 
-If you project has a website or perhaps github repository you can provide a `url`. If you are interested in knowing more about creating a project website or how to provide documentation for your code, have a look at the [Documenting your code](https://projects.raspberrypi.org/en/projects/documenting-your-code) project
+If your project has a website or perhaps github repository you can provide a `url`. If you are interested in knowing more about creating a project website or how to provide documentation for your code, have a look at the [Documenting your code](https://projects.raspberrypi.org/en/projects/documenting-your-code) project
 
 Next, you should add some **classifiers** to your **setup** this allows your project to be categorised with other similar projects and also provide useful information about your projects compatibility, such as what versions of Python it works with.
 

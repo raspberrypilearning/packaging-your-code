@@ -58,11 +58,11 @@ python3 setup.py sdist
 
 --- /collapse ---
 
-**Note:** the `sdist` parameter tells `setup.py` to create a **source distribution** which can be used to install your module on any computer which can run Python, there are other distributions such as `bdist_wheel` which is a binary distributions and will be quicker to install but may not work on every computer, so it is good idea to always create a source distribution.
+**Note:** the `sdist` parameter tells `setup.py` to create a **source distribution** which can be used to install your module on any computer which can run Python, there are other distributions such as `bdist_wheel` which is a binary distribution and will be quicker to install but may not work on every computer, so it is good idea to always create a source distribution.
 
 --- /task ---
 
-`setup.py` will have created a directory called `dist` in your **project** directory, this contains the distribution files for your project. 
+    `setup.py` will have created a directory called `dist` in your **project** directory, this contains the distribution files for your project. 
 
 Once you have created your **distribution** you can upload it to PyPI using `twine`.
 

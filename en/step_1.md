@@ -12,7 +12,7 @@ or
 from numpy import array
 ```
 
-These **modules** have been created by other programmers and have been shared as a **distribution** which you can install using `pip` e.g.
+These **modules** have been created by other programmers and have been shared as a **distribution** which you can install using the command line program `pip` e.g.
 
 ```bash
 pip3 install guizero
@@ -42,11 +42,7 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 --- /collapse ---
 
---- collapse ---
-
----
-title: What you will need
----
+## What you will need
 
 ### Hardware
 
@@ -59,10 +55,7 @@ title: What you will need
   + setuptools
   + twine
 
---- /collapse ---
-
 [[[generic-python-installing-with-pip]]]
-
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
 
