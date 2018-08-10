@@ -42,7 +42,11 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 --- /collapse ---
 
-## What you will need
+--- collapse ---
+
+---
+title: What you will need
+---
 
 ### Hardware
 
@@ -51,12 +55,17 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 ### Software
 
 + Python 3
-+ The following Python modules which can be installed using `pip`:
++ The following Python modules which can be installed using `pip3`:
   + setuptools
   + twine
 
-[[[generic-python-installing-with-pip]]]
+--- /collapse ---
+
+--- no-print ---
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
 
 Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+
+--- /no-print ---
+

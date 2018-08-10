@@ -177,4 +177,14 @@ Test your **setup** by running `setup.py` program from the Command Prompt or Ter
 
 --- /task ---
 
+If your project required other python packages to be installed to work you can specify them by passing a list to the `requires` parameter of `setup` e.g.
+
+```python
+__requires__ = ["guizero"]
+setup(
+    ...
+    requires = __requires__,
+)
+```
+
 To learn more about distributing your Python projects have a look at the [Python Packaging User Guide](https://packaging.python.org/tutorials/packaging-projects/).

@@ -67,7 +67,7 @@ In order to turn your Python code into a package and provide users access to you
 
 Create a new file and save it as `__init__.py`.
 
-**Note**: there are 2 underscores `_` `_` before and having the `init`, its important to get this right otherwise your program wont work.
+**Note**: there are 2 underscores `_` `_` before and after the `init`, its important to get this right otherwise your program wont work.
 
 --- /task ---
 
@@ -111,7 +111,7 @@ tree /F
 --- collapse ---
 
 ---
-title: Raspberry Pi, Linux, MacOS
+title: Raspberry Pi, Linux
 ---
 
 Run the command :
@@ -121,6 +121,28 @@ tree
 ```
 
 ![tree pi](images/tree_pi.PNG)
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: macOS
+---
+
+Run the command :
+
+```bash
+tree
+```
+
+![tree mac](images/tree_mac.PNG)
+
+**Note:** - if `tree` is not installed, you can use `brew` package manager to install it. There are instructions for installing brew at [brew.sh](https://brew.sh/).
+
+```bash
+brew install tree
+```
 
 --- /collapse ---
 

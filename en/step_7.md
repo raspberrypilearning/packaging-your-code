@@ -24,6 +24,14 @@ Open a browser, go to [pypi.org/account/register](https://pypi.org/account/regis
 
 --- task ---
 
+Check for an email from PyPi and confirm your registration.
+
+**Note:** - you will not be able to upload a distribution to PyPi until you have done so.
+
+--- /task ---
+
+--- task ---
+
 Next you will use your setup program to create a **distribution**, this is a compressed file which contains your Python module, its source code and your **setup**.
 
 Open a **Command Prompt** and run your `setup.py` program passing the parameter `sdist`.
@@ -62,7 +70,7 @@ python3 setup.py sdist
 
 --- /task ---
 
-    `setup.py` will have created a directory called `dist` in your **project** directory, this contains the distribution files for your project. 
+`setup.py` will have created a directory called `dist` in your **project** directory, this contains the distribution files for your project. 
 
 Once you have created your **distribution** you can upload it to PyPI using `twine`.
 
@@ -95,3 +103,8 @@ Once you project has been uploaded, it can be downloaded and installed using `pi
 ```bash
 pip3 install my_project
 ```
+
+When you want to upload a new version of your project you should:
+1. Update the version number in `setup.py`
+1. Run `setup.py` to create a new source distribution
+1. Upload the new version using `twine`
