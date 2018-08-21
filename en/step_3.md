@@ -1,18 +1,18 @@
-## Creating a setup
+## Create a setup program
 
-At the moment your module can only be accessed if the program which is calling it is saved to the **project** directory, to make your module accessible to all Python programs it needs to be installed.
+At the moment, your module can only be accessed if the program that is calling it is saved in the `my_project` directory. For your module to be accessible to all Python programs, it needs to be installed.
 
-To install a Python module you have to create a **setup** program which packages the module into a **distribution** you can install.
+So that you can install a Python module, you have to create a **setup** program that packages the module into a distribution.
 
-The **setup** program is just a python program which calls a function called `setup` passing all the information it needs to install your module.
+The setup program is just a Python program that calls the `setup` function, passing it all the information necessary to install your module.
 
 --- task ---
 
-Create a new Python 3 program and save it as `setup.py` in your **project** directory.
+Create a new Python 3 program, and save it as `setup.py` in the `my_project` directory.
 
 --- /task ---
 
-First you will just create a really simple setup program which does the minimum to install your project and you will expand on it later to include additional information.
+For now, you'll write a very simple setup program that does the minimum to install your module. You will expand on it later to include additional information.
 
 --- task ---
 
@@ -26,26 +26,26 @@ from setuptools import setup
 
 --- task ---
 
-Create 4 variables to hold the essential information about your distribution:
-+ `__project__` - the name of your project
-+ `__version__` - the version number, typically in the format `0.0.0`
-+ `__description__` - a description
-+ `__packages__` - a list of packages this distribution should install
+Create four variables to hold the essential information about your distribution:
++ `__project__`: the name of your project
++ `__version__`: the version number, typically in the format `0.0.0`
++ `__description__`: a description
++ `__packages__`: a list of packages this distribution should install
 
 ```python
 __project__ = "motivate"
 __version__ = "0.0.1"
-__description__ = "a python module to motivate you"
+__description__ = "a Python module to motivate you"
 __packages__ = ["motivate"]
 ```
 
 --- /task ---
 
-**Note:** these variables are called "module level dunders" and start and end with double underscores (dunder being short for double underscore) and are a way to provide information about your distribution.
+**Note:** these variables are called **module level dunders** and start and end with double underscores ('dunder' being short for 'double underscore').
 
 --- task ---
 
-Call the `setup` function passing the variables you just created.
+Call the `setup` function, passing the variables you just created to it.
 
 ```python
 setup(
@@ -58,4 +58,4 @@ setup(
 
 --- /task ---
 
-In the next step you will run your `setup.py` program to install and test the `motivate` module.
+In the next step, you will run your `setup.py` program to install and test the `motivate` module.
