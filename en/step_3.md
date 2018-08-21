@@ -2,7 +2,7 @@
 
 At the moment, your module can only be accessed if the program that is calling it is saved in the `my_project` directory. For your module to be accessible to all Python programs, it needs to be installed.
 
-So that you can install the Python module, you have to create a **setup** program. This is just a Python program that calls the `setup` function, passing it all the information necessary to install your module. Later you will also use it to create a **distribution** you can share with the world.
+So that you can install the Python module, you have to create a **setup** program. This is just a Python program that calls the `setup` function, passing it all the information necessary to install your module. Later you will also use this program to create a **distribution** you can share with the world.
 
 --- task ---
 
