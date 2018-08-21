@@ -1,6 +1,6 @@
 title: Packaging your Python code
 hero_image: images/banner.png
-description: Learn how to package Python code into a distribution.
+description: Learn to package your code as a distribution that people can install
 theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: false
@@ -10,9 +10,9 @@ version: 4
 last_tested: 2018-06-08
 steps: 
 - title: Introduction
-- title: Create your python package
-- title: Creating a setup
-- title: Installing
-- title: Adding additional information
-- title: "Challenge: Create your own package"
-- title: Uploading to pypi.org
+- title: Build your Python package
+- title: Create a setup program
+- title: Install your module
+- title: Add extra information
+- title: "Challenge: create your own package"
+- title: Upload to PyPi
