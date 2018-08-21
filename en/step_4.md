@@ -1,6 +1,6 @@
-## Installing
+## Install your module
 
-To install your module and test the setup, you need to run your `setup.py` program from the **Command Prompt** or **Terminal** as you need to pass the additional `install` parameter.
+To test your setup program and install your module, you need to run the `setup.py` program from the command line, as you need to pass it the additional `install` parameter.
 
 --- task ---
 
@@ -12,7 +12,7 @@ Run your `setup.py` program.
 title: Windows
 ---
 
-Open a **Command Prompt**, change directory (`cd`) to your **project** directory and run:
+Open a **Command Prompt** window, change directory (`cd`) to your `my_project` folder, and run:
 
 ```bash
 python setup.py install
@@ -25,10 +25,10 @@ python setup.py install
 --- collapse ---
 
 ---
-title: Raspberry Pi, Linux
+title: Raspberry Pi/Linux
 ---
 
-Open a **Terminal**, change directory (`cd`) to your **project** directory and run:
+Open a **Terminal** winow, change directory (`cd`) to your `my_project` folder, and run:
 
 ```bash
 sudo python3 setup.py install
@@ -41,10 +41,10 @@ sudo python3 setup.py install
 --- collapse ---
 
 ---
-title: MacOS
+title: macOS
 ---
 
-Open a **Terminal**, change directory (`cd`) to your **project** directory and run:
+Open a **Terminal** window, change directory (`cd`) to your `my_project` folder, and run:
 
 ```bash
 python3 setup.py install
@@ -56,17 +56,17 @@ python3 setup.py install
 
 --- /task ---
 
-When the setup program has finished, if no errors were reported, you should be able to use use the `motivate` module from any Python 3 program running on your computer.
+Once the setup program has finished running, if no errors were reported, you should be able to use use the `motivate` module from any Python 3 program running on your computer.
 
 --- task ---
 
-Test the `motivate` module has been installed by re-creating the simple test program, saving it outside your project directory and running it.
+Test the `motivate` module has been installed by recreating the test program, saving it **outside** your `my_project` directory, and running it.
 
 ```python
 from motivate import motivate_me
 motivate_me()
 ```
 
-**Note:** If you are presented with the error `ImportError: No module named motivate` the install has not completed successfully.
+**Note:** if you are presented with the error `ImportError: No module named motivate`, the module installation has not been completed successfully.
 
 --- /task ---
