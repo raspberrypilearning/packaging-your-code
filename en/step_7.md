@@ -1,22 +1,22 @@
 ## Uploading to PyPI
 
-[PyPI](https://pypi.org) (the Python Package Index) is the key repository for Python distributions. You can find Python software created and shared by other developers and install it. 
+[PyPI, the Python Package Index](https://pypi.org) is the key repository for Python distributions where you can find Python software created and shared by other developers to install and use in your own programs.
 
-When you install Python modules using `pip` e.g.
+Whenever you install Python modules using `pip`, e.g.:
 
 ```bash 
 pip install guizero
 ```
 
-`pip` downloads the package from [pypi.org](https://pypi.org) and then runs the `setup.py` program for you.
+what happens is that `pip` downloads the package from [pypi.org](https://pypi.org) and then runs the `setup.py` program for you.
 
-When you have your own Python module that you wish to share and have created a **setup** you can use it to create a **distribution** and upload it to PyPI allowing others to find and install your **package**.
+When you want to share a Python module of your own, and you and have created a `setup.py` for it, you can use this to create a **distribution** and upload it to PyPI to allow others to find and install your **package**.
 
 --- task ---
 
-To upload a package to [pypi.org](https://pypi.org) you will need an account. 
+To upload a package to [pypi.org](https://pypi.org), you will need an account. 
 
-Open a browser, go to [pypi.org/account/register](https://pypi.org/account/register/) and create an account.
+Open a browser, go to [pypi.org/account/register](https://pypi.org/account/register/), and sign up for an account.
 
 ![pypi register](images/pypi_register.PNG)
 
@@ -26,15 +26,15 @@ Open a browser, go to [pypi.org/account/register](https://pypi.org/account/regis
 
 Check for an email from PyPi and confirm your registration.
 
-**Note:** - you will not be able to upload a distribution to PyPi until you have done so.
+**Note:** you will not be able to upload a distribution to PyPi until you have done so.
 
 --- /task ---
 
 --- task ---
 
-Next you will use your setup program to create a **distribution**, this is a compressed file which contains your Python module, its source code and your **setup**.
+Next, use your setup program to create a **distribution**. This is a compressed file that contains your Python module, its source code, and your `setup.py` file.
 
-Open a **Command Prompt** and run your `setup.py` program passing the parameter `sdist`.
+On the command line, run your `setup.py` program with the parameter `sdist`.
 
 --- collapse ---
 
@@ -42,6 +42,7 @@ Open a **Command Prompt** and run your `setup.py` program passing the parameter 
 title: Windows
 ---
 
+Open a **Command Prompt** window and run your `setup.py` program, passing the parameter `sdist` to it.
 ```bash
 python setup.py sdist
 ```
@@ -53,10 +54,10 @@ python setup.py sdist
 --- collapse ---
 
 ---
-title: Raspberry Pi, Linux, MacOS
+title: Raspberry Pi/Linux/macOS
 ---
 
-Open a **Terminal** and run your `setup.py` program passing the parameter `sdist`.
+Open a **Terminal** window and run your `setup.py` program, passing the parameter `sdist` to it.
 
 ```bash
 python3 setup.py sdist
@@ -66,13 +67,13 @@ python3 setup.py sdist
 
 --- /collapse ---
 
-**Note:** the `sdist` parameter tells `setup.py` to create a **source distribution** which can be used to install your module on any computer which can run Python, there are other distributions such as `bdist_wheel` which is a binary distribution and will be quicker to install but may not work on every computer, so it is good idea to always create a source distribution.
+**Note:** the `sdist` parameter tells `setup.py` to create a **source distribution**, which can be used to install your module on any computer which can run Python. There are other distribution types, e.g. `bdist_wheel`, which is a binary distribution. This type is quicker to install but may not work on every computer, so it is good idea to always create a source distribution.
 
 --- /task ---
 
-`setup.py` will have created a directory called `dist` in your **project** directory, this contains the distribution files for your project. 
+`setup.py` will have created a directory called `dist` in your `my_project` directory that contains the distribution files for your project. 
 
-Once you have created your **distribution** you can upload it to PyPI using `twine`.
+Once you have created your distribution, you can upload it to PyPI using `twine`.
 
 --- task ---
 
@@ -92,19 +93,19 @@ Upload all the distribution files `*` using `twine`.
 twine upload *
 ```
 
-You will be prompted to enter your PyPI username and password, your project will then be uploaded.
+You will be prompted to enter your PyPI username and password, and your project will then be uploaded.
 
 --- /task ---
 
 ![twine upload](images/twine_upload.PNG)
 
-Once you project has been uploaded, it can be downloaded and installed using `pip`.
+Once your project has been uploaded, other people can download and install it using `pip`.
 
 ```bash
 pip3 install my_project
 ```
 
-When you want to upload a new version of your project you should:
+Whenever you want to upload a new version of your project to PyPI, do the following:
 1. Update the version number in `setup.py`
 1. Run `setup.py` to create a new source distribution
 1. Upload the new version using `twine`
