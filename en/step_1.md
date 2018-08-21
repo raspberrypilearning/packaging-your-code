@@ -24,7 +24,7 @@ pip3 install guizero
 
 Bundling code into distributions that you can share is called **packaging**, and packaging makes it much easier for people to download, install, and use your programs.
 
-You will write a basic Python module called `motivate`, and learn how to package it.
+You will write a basic Python module called `motivate` that prints motivating messages, and learn how to package it.
 
 ![motivate me](images/motivate_me.gif)
 
