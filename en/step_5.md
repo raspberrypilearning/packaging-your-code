@@ -1,16 +1,16 @@
-## Adding additional information
+## Add extra information
 
-Currently your setup program is only using the minimum amount of information to get the install to run. 
+Currently, your `setup.py` program only contains the minimum amount of information needed to get the installation to run. 
 
-You should add additional information about your project into `setup.py` so that potential users can answer important questions such as "who created it", "where to get help", "what sort of project it is" and add keywords so that it is easier to find.
+You should add additional information about your project into `setup.py`, so that potential users can answer important questions about your project such as who created it, where to get help with it, and what sort of project it is. It's also a good idea to add keywords so that your project is easier to find.
 
-This is done by passing additional parameters to the `setup` function when it is called.
+You can do this by passing additional parameters to the `setup` function when you call it.
 
-First you will add information about who created this module (you) and how to get in touch with them.
+First, you will add information about who created this module (you!) and how to get in touch with them.
 
 --- task ---
 
-Create new variable for the `author` parameter, this is information about who created this module and should contain your own name.
+Create a new variable for the `author` parameter. This is information about who wrote the module, so it should contain your own name.
 
 ```python
 __author__ = "Mickey Mouse"
@@ -21,7 +21,7 @@ __author__ = "Mickey Mouse"
 
 --- task ---
 
-Pass the **author** variable to the `setup` function.
+Pass the `author` variable to the `setup` function.
 
 ```python
 setup(
@@ -37,31 +37,31 @@ setup(
 
 --- task ---
 
-Add **author_email** information to the **setup**.
+Add `author_email` information to the `setup.py` program.
 
 --- hints ---
 
 --- hint ---
 
-The parameter you need to add to the `setup` function is called `author_email`.
+The function parameter you need to add is called `author_email`.
 
 --- /hint ---
 
 --- hint ---
 
-Create a variable called `__author_email__`, set it to your email address and pass this to the `setup` function as the `author_email` parameter.
+Create a variable called `__author_email__`, set it to your email address, and pass this to the `setup` function as the `author_email` parameter.
 
 --- /hint ---
 
 --- hint ---
 
-Add this code to create the `__author_email__` variable and set it to your email address
+Add this code to create the `__author_email__` variable and set it to your email address:
 
 ```python
 __author_email__ = "mickey@disney.com"
 ```
 
-Modify the `setup` function call to pass it as the `author_email` parameter.
+Modify the `setup` function call to also pass it the `author_email` parameter.
 
 ```python
 setup(
@@ -80,13 +80,13 @@ setup(
 
 --- /task ---
 
-If your project has a website or perhaps github repository you can provide a `url`. If you are interested in knowing more about creating a project website or how to provide documentation for your code, have a look at the [Documenting your code](https://projects.raspberrypi.org/en/projects/documenting-your-code) project
+If your project has a website or a GitHub repository, you can provide a `url`. If you're interested in learning to create a project website and documentation for your code, have a look at our [Documenting your code](https://projects.raspberrypi.org/en/projects/documenting-your-code) project.
 
-Next, you should add some **classifiers** to your **setup** this allows your project to be categorised with other similar projects and also provide useful information about your projects compatibility, such as what versions of Python it works with.
+Next, you should add some **classifiers** to your setup file. These will allow your project to be categorised with other similar projects, and they also provide useful information about your project's compatibility, such as what versions of Python it works with.
 
 --- task ---
 
-Create a list of classifiers and set it to show your project is for use with _Python 3_, its status is _Alpha_ and that intended audience is _Education_.
+Create a list of classifiers and to show your project is for use with Python 3, its status is 'Alpha', and its intended audience 'Education'.
 
 ```python
 __classifiers__ = [
@@ -118,15 +118,15 @@ setup(
 
 --- task ---
 
-Review the [list of classifiers](https://pypi.org/pypi?%3Aaction=list_classifiers) and add any others which you think are appropriate to your project.
+Review the [list of classifiers](https://pypi.org/pypi?%3Aaction=list_classifiers), and add any others you think are appropriate to your project.
 
 --- /task ---
 
-The **keywords** parameter allows you to provide words which someone may search for when looking for a project.
+The `keywords` parameter allows you to provide words which someone may use to search for a project like yours.
 
 --- task ---
 
-Create a list of **keywords** which are appropriate to this project such as "motivation" or "learning" and add it to the **setup**.
+Create a list of keywords that are appropriate to this project, such as "motivation" or "learning", and add it to the `setup` function.
 
 --- hints ---
 
@@ -144,13 +144,13 @@ You should create a list called `__keywords__` and pass it to the `keyword` para
 
 --- hint ---
 
-You would create a __keywords__ list using:
+You create a `__keywords__` list like this:
 
 ```python
 __keywords__ = ["motivation", "learning"]
 ```
 
-Before passing it to the `keyword` parameter of `setup`:
+Then pass it to the `keyword` parameter of `setup`:
 
 ```python
 setup(
@@ -173,18 +173,19 @@ setup(
 
 --- task ---
 
-Test your **setup** by running `setup.py` program from the Command Prompt or Terminal.
+Test your setup program by running `setup.py` from the command line.
 
 --- /task ---
 
-If your project required other python packages to be installed to work you can specify them by passing a list to the `requires` parameter of `setup` e.g.
+If your project requires other Python packages to be installed to work, you can specify these by passing a list to the `requires` parameter of `setup`, for example:
 
 ```python
 __requires__ = ["guizero"]
+
 setup(
     ...
     requires = __requires__,
 )
 ```
 
-To learn more about distributing your Python projects have a look at the [Python Packaging User Guide](https://packaging.python.org/tutorials/packaging-projects/).
+To learn more about distributing your Python projects, have a look at the [Python packaging user guide](https://packaging.python.org/tutorials/packaging-projects/).
