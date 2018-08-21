@@ -1,16 +1,16 @@
-## Build your python package
+## Build your Python package
 
-In this first step you will be creating a python package called `motivate` and structuring the code into a set of directories.
+In this first step, you will create a Python package called `motivate`, structuring its code into a set of directories.
 
 --- task ---
 
-Open a **Command Prompt** (Windows) or **Terminal** (Raspberry Pi, Linux, MacOS).
+Open a Command Prompt (Windows) or Terminal (Raspberry Pi, Linux, macOS) window.
 
 --- /task ---
 
 --- task ---
 
-Create a directory for your **project**, this will hold all the directories and files which make up your project.
+Create a directory `my_project` for your **project**. It will hold all the directories and files that will make up your project.
 
 ```bash
 mkdir my_project
@@ -20,7 +20,7 @@ mkdir my_project
 
 --- task ---
 
-Change directory to your new project directory you just created.
+Change directories to your new project directory.
 
 ```bash
 cd my_project
@@ -30,9 +30,9 @@ cd my_project
 
 --- task ---
 
-Create a directory for your python **package**, this directory will hold the code for your Python module.
+Create a directory for your Python package. This directory will hold the code for your Python module.
 
-The name of this directory will also be the name of your python package, in our example this is `motivate`.
+The name of the directory will be the name of your Python package — in this example, it's `motivate`.
 
 ```bash
 mkdir motivate
@@ -42,15 +42,15 @@ mkdir motivate
 
 --- task ---
 
-Open a Python 3 editor (such as IDLE), create a new file and save it was `me.py` in the Python module directory, `motivate`, you just created.
+Open a Python 3 editor (such as IDLE), create a new file, and save it as `me.py` in the Python module directory `motivate`.
 
-This python program will hold the python code which will print motivating messages.
+This Python program will hold the code that will print motivating messages.
 
 --- /task ---
 
 --- task ---
 
-Create a function called `motivate_me` and have it print a message.
+Create a function called `motivate_me`, and have it print a message.
 
 ```python
 
@@ -61,13 +61,13 @@ def motivate_me():
 
 --- /task ---
 
-In order to turn your Python code into a package and provide users access to your new function `motivate_me` you need to create a special file called `__init.py__` which will **initialise** your package and tell Python about its contents.
+To turn your Python code into a package and provide users access to your new function `motivate_me`, you need to create a special file called `__init__.py`, which will **initialise** your package and tell Python about the package contents.
 
 --- task ---
 
 Create a new file and save it as `__init__.py`.
 
-**Note**: there are 2 underscores `_` `_` before and after the `init`, its important to get this right otherwise your program wont work.
+**Note**: there are **two** underscores `_` `_` before and after `init`. It's important to get this right, otherwise your program wont work.
 
 --- /task ---
 
@@ -81,16 +81,16 @@ from .me import motivate_me
 
 --- /task ---
 
-Your project should now have the following structure:
+Your project should now have the following directory structure:
 
 + **project** - `my_project`
   + **package** - `motivate`
     + **module** - `me.py`
     + **initialisation file** - `__init__.py`
 
-Its really important you get the structure correct or you may find that other steps don't work.
+It's really important you get the structure correct, otherwise you may find that the next steps won't work.
 
-You can test that your project is setup correctly using the `tree` command to print the directory and file structure.
+You can test that your project is set up correctly using `tree` on the command line to print the directory and file structure.
 
 --- collapse ---
 
@@ -111,10 +111,10 @@ tree /F
 --- collapse ---
 
 ---
-title: Raspberry Pi, Linux
+title: Raspberry Pi/Linux
 ---
 
-Run the command :
+Run the command:
 
 ```bash
 tree
@@ -130,7 +130,7 @@ tree
 title: macOS
 ---
 
-Run the command :
+Run the command:
 
 ```bash
 tree
@@ -138,11 +138,13 @@ tree
 
 ![tree mac](images/tree_mac.PNG)
 
-**Note:** - if `tree` is not installed, you can use `brew` package manager to install it. There are instructions for installing brew at [brew.sh](https://brew.sh/).
+**Note:** if `tree` is not installed on your machine, you can use the Homebrew package manager command `brew` to install it.
 
 ```bash
 brew install tree
 ```
+
+There are instructions for installing Homebrew at [brew.sh](https://brew.sh/).
 
 --- /collapse ---
 
@@ -152,7 +154,7 @@ You should test your module before packaging and installing it.
 
 --- task ---
 
-Create a new Python 3 file and save it into the **project** directory as `test.py`
+Create a new Python 3 file and save it in the `my_project` directory as `test.py`.
 
 --- /task ---
 
@@ -168,7 +170,7 @@ from motivate import motivate_me
 
 --- task ---
 
-Add the code to call the `motivate_me` function.
+Add code to call the `motivate_me` function.
 
 ```python
 motivate_me()
@@ -182,8 +184,8 @@ Run the `test.py` program.
 
 --- /task ---
 
-You should see your motivating message appear.
+You should see your motivating message appear!
 
 ![motivate me](images/motivate_me.gif)
 
-**Note:** There is an example [solution](https://github.com/raspberrypilearning/packaging-your-code/tree/master/en/solutions) in the github repository for this project.
+**Note:** there is an example [solution](https://github.com/raspberrypilearning/packaging-your-code/tree/master/en/solutions) in the GitHub repository for this project.
