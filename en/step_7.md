@@ -1,4 +1,4 @@
-## Uploading to PyPI
+## Upload to PyPI
 
 [PyPI, the Python Package Index](https://pypi.org) is the key repository for Python distributions where you can find Python software created and shared by other developers to install and use in your own programs.
 
