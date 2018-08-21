@@ -1,7 +1,7 @@
 --- challenge ---
 
-## Challenge: Create your own package
+## Challenge: create your own package
 
-Now you have learnt the basic of Python packaging, create your own python module and prepare and test a **setup** for it.
+Now that you've learnt the basic of Python packaging, create your own Python module (writing new code, or using a program you already have) and prepare and test a setup for it!
 
 --- /challenge ---
