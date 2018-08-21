@@ -1,26 +1,30 @@
 ## Introduction
 
-Using Python you very quickly get used to using `import` so you can use other modules within your program, e.g.
+In this project, you will learn everything you need to know to package your own Pyton code so that others can install and use it by creating a simple Python module and then packaging it.
+
+### What you will make
+
+When programming in Python, you very quickly get used to using `import` statements to use external **modules** within your programs. For example:
 
 ```python
 from guizero import App
 ```
 
-or
+or:
 
 ```python
 from numpy import array
 ```
 
-These **modules** have been created by other programmers and have been shared as a **distribution** which you can install using the command line program `pip` e.g.
+These modules have been created by other programmers, who have shared them as **distributions** that you can install using the command line tool `pip`. For example:
 
 ```bash
 pip3 install guizero
 ```
 
-Bundling up code into distributions which you can share is called **packaging** and makes it much easier for people to get, install and use your programs.
+Bundling code into distributions that you can share is called **packaging**, and packaging makes it much easier for people to download, install, and use your programs.
 
-In this project you will create a simple Python module, called `motivate` and package it, learning what you need to know to package your own Pyton code.
+You will write a basic Python module called `motivate`, and learn how to package it.
 
 ![motivate me](images/motivate_me.gif)
 
@@ -32,13 +36,13 @@ title: What you will learn
 
 You will learn:
 
-+ how to structure Python projects
-+ how to package Python modules
++ How to structure Python projects
++ How to package Python modules
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Apply higher-order programming techniques to solve real-world problems.](https://curriculum.raspberrypi.org/programming/maker/){:target="_blank"}
-+ [Engage and share with the digital making community.](https://curriculum.raspberrypi.org/community-and-sharing/creator/){:target="_blank"}
++ [Apply higher-order programming techniques to solve real-world problems](https://curriculum.raspberrypi.org/programming/maker/){:target="_blank"}
++ [Engage and share with the digital making community](https://curriculum.raspberrypi.org/community-and-sharing/creator/){:target="_blank"}
 
 --- /collapse ---
 
@@ -50,12 +54,12 @@ title: What you will need
 
 ### Hardware
 
-+ A computer capable of running Python 3.
++ A computer capable of running Python 3
 
 ### Software
 
 + Python 3
-+ The following Python modules which can be installed using `pip3`:
++ The following Python modules, which can be installed using `pip3`:
   + setuptools
   + twine
 
