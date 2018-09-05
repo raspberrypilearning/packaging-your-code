@@ -136,7 +136,7 @@ Run the command:
 tree
 ```
 
-![tree mac](images/tree_mac.PNG)
+![tree mac](images/tree_mac.png)
 
 **Note:** if `tree` is not installed on your machine, you can use the Homebrew package manager command `brew` to install it.
 

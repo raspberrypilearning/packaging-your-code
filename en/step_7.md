@@ -10,7 +10,7 @@ pip install guizero
 
 what happens is that `pip` downloads the package from [pypi.org](https://pypi.org) and then runs the `setup.py` program for you.
 
-When you want to share a Python module of your own, and you and have created a `setup.py` for it, you can use this to create a **distribution** and upload it to PyPI to allow others to find and install your **package**.
+When you want to share a Python module of your own, and you have created a `setup.py` for it, you can use this to create a **distribution** and upload it to PyPI to allow others to find and install your **package**.
 
 --- task ---
 
