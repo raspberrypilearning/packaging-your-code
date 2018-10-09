@@ -26,7 +26,17 @@ Bundling code into distributions that you can share is called **packaging**, and
 
 You will write a basic Python module called `motivate` that prints motivating messages, and learn how to package it.
 
+--- no-print ---
+
 ![motivate me](images/motivate_me.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![motivate me](images/motivate_me.PNG)
+
+--- /print-only ---
 
 --- collapse ---
 
