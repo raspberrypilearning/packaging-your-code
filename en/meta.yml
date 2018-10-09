@@ -1,7 +1,7 @@
 title: Packaging your Python code
 hero_image: images/banner.png
 description: Learn to package your code as a distribution that people can install
-listed: false
+listed: true
 ingredient: false
 copyedit: true
 version: 4
