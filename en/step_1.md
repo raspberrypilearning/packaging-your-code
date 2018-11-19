@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, you will learn everything you need to know to package your own Pyton code so that others can install and use it by creating a simple Python module and then packaging it.
+In this project, you will learn everything you need to know to package your own Python code so that others can install and use it by creating a simple Python module and then packaging it.
 
 ### What you will make
 
