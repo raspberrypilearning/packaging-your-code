@@ -9,11 +9,13 @@ version: 4
 last_tested: 2018-06-08
 steps:
 - title: Introduction
-  completion: engaged
 - title: Build your Python package
 - title: Create a setup program
+  completion:
+  - engaged
 - title: Install your module
 - title: Add extra information
 - title: 'Challenge: create your own package'
-  completion: internal
 - title: Upload to PyPi
+  completion:
+  - internal
