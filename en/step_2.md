@@ -76,7 +76,7 @@ Create a new file and save it as `__init__.py`.
 Add the following code to `__init__.py` to import the `motivate_me` function from the `me.py` module.
 
 ```python
-from .me import motivate_me
+from me import motivate_me
 ```
 
 --- /task ---
@@ -163,7 +163,7 @@ Create a new Python 3 file and save it in the `my_project` directory as `test.py
 Add the following code to import the `motivate_me` function from the `motivate` module.
 
 ```python
-from motivate import motivate_me
+from me import motivate_me
 ```
 
 --- /task ---
