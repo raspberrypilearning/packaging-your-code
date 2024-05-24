@@ -18,38 +18,9 @@ You will write a basic Python module called `motivate` that prints motivating me
 
 --- /print-only ---
 
---- collapse ---
 
----
-title: What you will learn
----
+### What you will need
 
-You will learn:
++ A Python 3 IDE, e.g. IDLE
 
-+ How to structure Python projects
-+ How to package Python modules
-
---- /collapse ---
-
---- collapse ---
-
----
-title: What you will need
----
-
-### Hardware
-
-+ A computer capable of running Python 3
-
-### Software
-
-+ Python 3
-
---- /collapse ---
-
---- no-print ---
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/packaging-your-code/print){:target="_blank"}.
-
---- /no-print ---
 
