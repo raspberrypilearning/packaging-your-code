@@ -1,38 +1,24 @@
-## Package your code
+## Test your code
 
-Now that you have written some code, you will package it so that other people can install and use it. 
+Test your code works before you package it.
 
 --- task ---
 
-Create a file called `pyproject.toml`, and save it in the `my_project` directory.
+Create a file called `test.py` and save it in the `my_project` directory.
 
 --- /task ---
 
-This file will contain all of the information about your package that Python needs to be able to build it. 
-
-
 --- task ---
 
-Copy and paste the template into your `pyproject.toml` file:
+In `test.py`, add the following code to import the `motivate_me` function from the `motivate` module.
 
 --- code ---
 ---
-language: markdown
-filename: pyproject.toml
+language: python
+filename: test.py
 line_numbers: true
-line_number_start: 1
 ---
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
-[project]
-name = "motivate"
-version = "0.0.1"
-authors = [
-  { name="Example Name", email="example@example.com" },
-]
+from motivate import motivate_me
 
 --- /code ---
 
@@ -40,9 +26,32 @@ authors = [
 
 --- task ---
 
-In the `[project]` section, change the author's name and email address to your name and email address.
+Add code to call the `motivate_me` function.
 
-The `name` of the project must be the same as the folder name which contains the module. In this example, we called it `motivate`, but if you called the folder something different, change the name here too. 
+
+--- code ---
+---
+language: python
+filename: test.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 2
+---
+
+   from motivate import motivate_me
+   motivate_me()
+
+--- /code ---
+
 --- /task ---
 
+--- task ---
+
+Run the `test.py` program.
+
+--- /task ---
+
+You should see your motivating message appear!
+
+![motivate me](images/motivate_me.gif)
 

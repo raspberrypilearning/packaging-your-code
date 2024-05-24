@@ -10,7 +10,8 @@ last_tested: 2018-06-08
 steps:
 - title: What you will make
 - title: Build a Python module
-- title: Create a setup program
+- title: Test your code
+- title: Package your code
   completion:
   - engaged
 - title: Install your module
