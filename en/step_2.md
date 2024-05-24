@@ -1,6 +1,6 @@
 ## Build a Python module
 
-In this step you will create a demo Python package called `motivate`, so that you can practice packaging. 
+First, you will create a demo Python package called `motivate`, so that you can use it to practice packaging. 
 
 --- task ---
 

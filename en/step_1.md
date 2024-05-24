@@ -1,10 +1,6 @@
-## Introduction
+## What you will make
 
-In this project, you will package your own Python code so that others can install and use it.
-
-### What you will make
-
-You will write a basic Python module called `motivate` that prints motivating messages, and learn how to package it.
+You will write a basic Python module, and learn how to package it.
 
 --- no-print ---
 
@@ -17,6 +13,10 @@ You will write a basic Python module called `motivate` that prints motivating me
 ![motivate me](images/motivate_me.PNG)
 
 --- /print-only ---
+
+### Why is this useful?
+
+Packaging your Python code means that others can easily install and use it.
 
 
 ### What you will need
