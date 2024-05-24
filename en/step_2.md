@@ -18,8 +18,6 @@ Create a directory **inside** the `my_project` directory called `motivate` - thi
 
 Using a Python IDE, create a new Python file, and save it as `me.py` in the `motivate` directory.
 
-[[[generic-python-install-python3]]]
-
 --- /task ---
 
 --- task ---

@@ -1,6 +1,6 @@
 ## Package your code
 
-Now that you have written some code, you will package it so that other people can install and use it. 
+Now you will package your code so that other people can install and use it. 
 
 --- task ---
 
@@ -42,7 +42,19 @@ authors = [
 
 In the `[project]` section, change the author's name and email address to your name and email address.
 
-The `name` of the project must be the same as the folder name which contains the module. In this example, we called it `motivate`, but if you called the folder something different, change the name here too. 
+The `name` of the project must be the same as the folder name which contains the code. In this example, we called it `motivate`, but if you called the folder something different, change the name here too. 
 --- /task ---
+
+--- task --- 
+In a command prompt, make sure you are in the same directory as the `pyproject.toml` file, then type this command to build the package:
+
+--- code ---
+---
+language: bash
+line_numbers: false
+---
+python3 -m build
+
+--- /code ---
 
 
