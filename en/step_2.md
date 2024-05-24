@@ -1,4 +1,4 @@
-## Build a Python module
+## Build a demo package
 
 First, you will create a demo Python package called `motivate`, so that you can use it to practice packaging. 
 
@@ -10,7 +10,7 @@ Create a directory called `my_project` for your project.
 
 --- task ---
 
-Create a directory **inside** the `my_project` directory called `motivate` - this is the name of the module.
+Create a directory **inside** the `my_project` directory called `motivate` - this is the name of the package.
 
 --- /task ---
 
@@ -46,7 +46,7 @@ To turn your Python code into a package, you need to create a special file calle
 
 In the `motivate` directory, create a new file and save it as `__init__.py`.
 
-There are **two** underscores `_` `_` before and after `init`. It's important to get this right, otherwise your program wont work.
+There are **two** underscores `_` `_` before and after `init`. It's important to get this right, otherwise your program won't work.
 
 --- /task ---
 
@@ -78,7 +78,7 @@ It's really important that you get the structure correct, otherwise the next ste
 
 ### Test your code
 
-Test your module before packaging and installing it.
+Test your code works before you package it.
 
 --- task ---
 

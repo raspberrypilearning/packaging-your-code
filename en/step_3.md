@@ -1,8 +1,6 @@
-## Package your module
+## Package your code
 
-At the moment, your module can only be accessed if the program that is calling it is saved in the `my_project` directory. For your module to be accessible to all Python programs, it needs to be installed.
-
-So that you can install the Python module, you have to package it. Later you will also use this program to create a **distribution** you can share with the world.
+Now that you have written some code, you will package it so that other people can install and use it. 
 
 --- task ---
 
@@ -15,9 +13,16 @@ This file will contain all of the information about your package that Python nee
 
 --- task ---
 
-Copy and paste the following template into your `pyproject.toml` file:
+Copy and paste the template into your `pyproject.toml` file:
 
-```markdown
+--- code ---
+---
+language: markdown
+filename: pyproject.toml
+line_numbers: true
+line_number_start: 1
+---
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
@@ -29,7 +34,7 @@ authors = [
   { name="Example Name", email="example@example.com" },
 ]
 
-```
+--- /code ---
 
 --- /task ---
 
@@ -41,4 +46,3 @@ The `name` of the project must be the same as the folder name which contains the
 --- /task ---
 
 
-In the next step, you will run the build process to build the `motivate` module.

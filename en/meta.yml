@@ -9,7 +9,7 @@ version: 4
 last_tested: 2018-06-08
 steps:
 - title: What you will make
-- title: Build your Python package
+- title: Build a Python module
 - title: Create a setup program
   completion:
   - engaged
