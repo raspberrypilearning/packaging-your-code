@@ -15,5 +15,6 @@ steps:
   completion:
   - engaged
 - title: Install your module
+- title: Share with the world
   completion:
   - internal
