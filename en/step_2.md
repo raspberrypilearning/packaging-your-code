@@ -50,7 +50,7 @@ There are **two** underscores `_` `_` before and after `init`. It's important to
 
 --- task ---
 
-Open the file `__init__.py` in your Python IDE. Import the `motivate_me` function from the `me.py` module like this.
+Open the file `__init__.py` in your Python IDE. Import the `motivate_me` function from the `me.py` module like this. The module is referred to as `.me`, where the dot means "in this folder" and the file extension `py` is omitted. 
 
 --- code ---
 ---

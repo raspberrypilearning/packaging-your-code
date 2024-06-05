@@ -40,19 +40,20 @@ authors = [
 
 --- task ---
 
-In the `[project]` section, change the author's name and email address to your name and email address.
+In the `[project]` section, you can set the author's name and email address. **This information will be public** - ask an adult before sharing personal information. If you don't intend to publish your package, you can leave the example values as they are.
 
 The `name` of the project must be the same as the folder name which contains the code. In this example, we called it `motivate`, but if you called the folder something different, change the name here too. 
 --- /task ---
 
 --- task --- 
-In a command prompt, make sure you are in the same directory as the `pyproject.toml` file, then type this command to build the package:
+In a command prompt, make sure you are in the same directory as the `pyproject.toml` file, then type these commands to install the build tool and build the package:
 
 --- code ---
 ---
 language: bash
 line_numbers: false
 ---
+python3 -m pip install build
 python3 -m build
 
 --- /code ---

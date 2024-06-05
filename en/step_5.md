@@ -11,16 +11,18 @@ From a command prompt, change directory so that you are inside the `dist` direct
 --- /task ---
 
 --- task ---
-Install the package by typing the following command:
+Install the package by typing the start of the command as follows:
 
 --- code ---
 ---
 language: bash
 line_numbers: false
 ---
-pip3 install motivate.whl
+pip3 install m
 
 --- /code ---
+
+After you have typed the `m`, press the `tab` key on your keyboard and the full name of the `.whl` file should autocomplete without you having to type it. It will look something like `motivate-0.0.1-py2.py3-none-any.whl`. 
 
 --- /task ---
 
