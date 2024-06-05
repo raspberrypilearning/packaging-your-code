@@ -8,14 +8,13 @@ copyedit: true
 version: 4
 last_tested: 2018-06-08
 steps:
-- title: Introduction
-- title: Build your Python package
-- title: Create a setup program
+- title: What you will make
+- title: Build a demo package
+- title: Test your code
+- title: Package your code
   completion:
   - engaged
 - title: Install your module
-- title: Add extra information
-- title: 'Challenge: create your own package'
-- title: Upload to PyPi
+- title: Share with the world
   completion:
   - internal

@@ -1,7 +1,5 @@
---- challenge ---
+## Share with the world
 
-## Challenge: create your own package
+Congratulations, you have created a Python package! 
 
-Now that you've learnt the basic of Python packaging, create your own Python module and prepare and test a setup for it! You can write new code to be packaged, or use a program you already have.
-
---- /challenge ---
+To learn how to share your project with the world and enable it to be installed using pip, have a look at the [Python packaging user guide](https://packaging.python.org/en/latest/tutorials/packaging-projects/).
